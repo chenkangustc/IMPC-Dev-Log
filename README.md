@@ -14,3 +14,5 @@
    将pipe中的N去掉，alloc和free函数也备注掉，并计算de
    写system类，写pre函数，set和init
    写pre函数和cal函数，大的函数不写在类里面，单独写driving
+## 20180307
+1. 写pre函数和计算主函数、流量计算模块函数，程序整体计算；
