@@ -54,4 +54,9 @@ purpose:完成一整套泵的计算程序，从输入到输出，输入模式可
 研读输入卡，先把输入卡搞定，完成整个的流量计算程序；  
   ## 20180309
   pupose:完成输入卡的编写；让高育翠师姐看一下daisy中点堆模型的运行机制，是否与采用同一套的网格；
-  
+  编译通过新的console
+  研究daisy，read卡和scan卡
+  找FILES的定义以及CASENAME的含义。file_tp::FILES
+  open_file函数中file_unit的含义
+  open(newunit=file_unit, file=file_name, status='old', action='read', iostat=io_error)
+  files%casename记录的是I/O单元号
