@@ -60,3 +60,6 @@ purpose:完成一整套泵的计算程序，从输入到输出，输入模式可
   open_file函数中file_unit的含义
   open(newunit=file_unit, file=file_name, status='old', action='read', iostat=io_error)
   files%casename记录的是I/O单元号
+  ##20180311
+  purpose:白天完成输入卡的编写；晚上修改简历，学习ML；
+  写好keyword
