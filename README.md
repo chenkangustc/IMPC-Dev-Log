@@ -182,6 +182,8 @@ purpose:完成一整套泵的计算程序，从输入到输出，输入模式可
    需要有二回路才能模拟全厂断电；
    先把IMPC-v1.0重新编译起来，看懂cmkae语句；
    手动建立工程并尝试编译；
+   写一个perform_TH_loop:将perform_TH_IMP中的driving_imp_steady改为driving_imp_loop
+   driving_imp_steady在driving_loop中调用（需要做一定修改）
   ## 软件可以进行的改进
   计算流量时考虑密度变化；
   冷却剂放在一个类内？
