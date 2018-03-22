@@ -1,8 +1,9 @@
 # IMPC-Dev-Log
 ## 20180323
 * daisy输入卡中遇到的问题
-   * th_configure对应的是材料层数还是组件个数？反射层组件不参与计算
+ * th_configure对应的是材料层数还是组件个数？反射层组件不参与计算
 * 点堆的接口：pkmodel_run();driver_transient_pk?
+* daisy的事要问别人，比如点堆的耦合；
 
 ## 待办事项 
 * 调研选定换热器中water和LBE的对流换热公式； 
