@@ -25,13 +25,13 @@
 ## 20180322-imp_热工模块修改
 * 尝试IMPC-loop的运行
    * 在loop模块写print保证运行到
-   * 写loop的后处理输出，输出堆芯进出口温度，换热器进出口温度
-   * 从inputcard中拆分出I/O模块
+   * 写loop的后处理输出，输出堆芯进出口温度，换热器进出口温度
+   * 从inputcard中拆分出I/O模块
    * 查找点堆的运行方式
-   * 合并re_input.txt和loopinput.txt
-   * 输出运行日志；输入以及比较清晰；输出和I/O两块需要打通一下；
-   * 改了is_imp,is_loop，set assembly的地方就出错？如果选用is_inner如何
-   * 合并输入卡：input.case,re_input.txt,loopinput.case
+   * 合并re_input.txt和loopinput.txt
+   * 输出运行日志；输入以及比较清晰；输出和I/O两块需要打通一下；
+   * 改了is_imp,is_loop，set assembly的地方就出错？如果选用is_inner如何
+   * 合并输入卡：input.case,re_input.txt,loopinput.case
 * 修改IMPC中的imp热工模块；
 * core的几何输入由daisy网格读取；
 ## 20180321耦合代码编写
