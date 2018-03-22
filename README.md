@@ -178,10 +178,10 @@ purpose:完成一整套泵的计算程序，从输入到输出，输入模式可
   在Imp_loop_interface中添加热工反馈；
   daisy中选用点堆模型；
 ## 20180321耦合代码编写
-  初步完成代码耦合；
-  在Imp_drving_THcore中写输出温度的反馈，耦合边界条件；
-  在imp_loop_interface.f90中写对物理的温度反馈；
-  提交计算；取消core的声明和分配变量等等；
+* 初步完成代码耦合；
+* 在Imp_drving_THcore中写输出温度的反馈，耦合边界条件；
+* 在imp_loop_interface.f90中写对物理的温度反馈；
+* 提交计算；取消core的声明和分配变量等等；
 ## 20180322-imp_热工模块修改
 * 尝试IMPC-loop的运行
    * 在loop模块写print保证运行到
@@ -200,20 +200,19 @@ purpose:完成一整套泵的计算程序，从输入到输出，输入模式可
 * 点堆的接口：pkmodel_run();driver_transient_pk?
   
 ## 待办事项 
-
-   调研选定换热器中water和LBE的对流换热公式； 
-   验证换热器的计算；  
-   换热器程序代码优化；  
-   需要有二回路才能模拟全厂断电；
-   先把IMPC-v1.0重新编译起来，看懂cmkae语句；
-   手动建立工程并尝试编译；
-   写一个perform_TH_loop:将perform_TH_IMP中的driving_imp_steady改为driving_imp_loop
-   driving_imp_steady在driving_loop中调用（需要做一定修改）
-   查看IHX和PIPE中Q的来源：从输入卡输入，因此一回路需要输入同样的流量；
-   写好瞬态，用点堆进行调试热工反馈模块；在输入卡中加入选项，选择需要的热工反馈模型；
-   测试一下present函数
-   查看点堆的运行与热工反馈流程；core类在水力学计算中有用；先保留core类；
-   耦合前处理； 
+* 调研选定换热器中water和LBE的对流换热公式； 
+* 验证换热器的计算；  
+* 换热器程序代码优化；  
+* 需要有二回路才能模拟全厂断电；
+* 先把IMPC-v1.0重新编译起来，看懂cmkae语句；
+* 手动建立工程并尝试编译；
+* 写一个perform_TH_loop:将perform_TH_IMP中的driving_imp_steady改为driving_imp_loop
+* driving_imp_steady在driving_loop中调用（需要做一定修改）
+* 查看IHX和PIPE中Q的来源：从输入卡输入，因此一回路需要输入同样的流量；
+* 写好瞬态，用点堆进行调试热工反馈模块；在输入卡中加入选项，选择需要的热工反馈模型；
+* 测试一下present函数
+* 查看点堆的运行与热工反馈流程；core类在水力学计算中有用；先保留core类；
+* 耦合前处理； 
 ## 软件可以进行的改进
 * 计算流量时考虑密度变化；
   冷却剂放在一个类内？
